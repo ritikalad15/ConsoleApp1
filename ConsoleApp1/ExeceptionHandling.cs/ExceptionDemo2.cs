@@ -21,7 +21,7 @@ namespace ConsoleApp1.ExeceptionHandling.cs
             //}
             
         }
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             
             int a = 20, b = 0;
@@ -35,6 +35,6 @@ namespace ConsoleApp1.ExeceptionHandling.cs
                 Console.WriteLine(d.Message);
             }
             
-        }
+        }*/
     }
 }

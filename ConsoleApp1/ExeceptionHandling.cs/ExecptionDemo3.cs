@@ -14,8 +14,7 @@ namespace ConsoleApp1.ExeceptionHandling.cs
         }
     }
     class ExecptionDemo3
-    {
-        
+    { 
         public void CheckAge(int age)
         {
             if (age < 18)
@@ -23,8 +22,7 @@ namespace ConsoleApp1.ExeceptionHandling.cs
                 throw new MinimumAgeException("Below 18 age not valid for voting");
             }
             else 
-            {
-                
+            { 
                 Console.WriteLine("valid for voting");
             }
         }
@@ -44,10 +42,10 @@ namespace ConsoleApp1.ExeceptionHandling.cs
                 Console.WriteLine(e.Message);
                 Console.WriteLine(e.GetType());
             }
-            finally
+           /* finally
             {
                 Console.WriteLine("Execution is done Sucessfully");
-            }
+            }*/
            
         }
     }

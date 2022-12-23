@@ -12,7 +12,7 @@ namespace ConsoleApp1.Collections
         string name;
         double marks;
 
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             CollectionEx c = new CollectionEx();
             c.rollno = 101;
@@ -70,6 +70,6 @@ namespace ConsoleApp1.Collections
                 Console.WriteLine(item.Key+"--->"+item.Value);
             }
             Console.WriteLine();
-        }
+        }*/
     }
 }

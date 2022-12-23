@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.ExeceptionHandling.cs.Student</StartupObject>
+    <StartupObject>ConsoleApp1.DelegateEx.Stud.Wxyz</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,11 +53,18 @@
     <Compile Include="Array2D\ToggleLetter.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="Book1.cs" />
+    <Compile Include="Collections\BookEx.cs" />
     <Compile Include="Collections\Employee.cs" />
     <Compile Include="Collections\HashtableEx.cs" />
     <Compile Include="Collections\CollectionEx.cs" />
     <Compile Include="Collections\Player.cs" />
+    <Compile Include="Collections\AccountEx.cs" />
+    <Compile Include="Collections\ProDuctEx.cs" />
+    <Compile Include="Collections\Department.cs" />
+    <Compile Include="Collections\Stud.cs" />
     <Compile Include="Collections\QueueEx.cs" />
+    <Compile Include="DelegateEx\DelegateTask.cs" />
+    <Compile Include="DelegateEx\Stud.cs" />
     <Compile Include="Emp.cs" />
     <Compile Include="Employee1.cs" />
     <Compile Include="Employee2.cs" />
@@ -68,10 +75,16 @@
     <Compile Include="Keywords.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Mock.cs" />
+    <Compile Include="ProductEx.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shapes.cs" />
     <Compile Include="StackEx.cs" />
+    <Compile Include="StaticStudy\Student.cs" />
+    <Compile Include="StringPrgm\AnagramEx.cs" />
+    <Compile Include="StringPrgm\ArrayPair.cs" />
+    <Compile Include="StringPrgm\Fibonacci.cs" />
+    <Compile Include="StringPrgm\MoveZeros.cs" />
     <Compile Include="Stud.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Test1.cs" />

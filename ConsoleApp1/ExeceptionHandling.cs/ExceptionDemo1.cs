@@ -8,7 +8,7 @@ namespace ConsoleApp1.ExeceptionHandling.cs
 {
     class ExceptionDemo1
     {
-        static void Main(string[] args)
+       /* static void Main(string[] args)
         {
             try
             {
@@ -26,6 +26,6 @@ namespace ConsoleApp1.ExeceptionHandling.cs
             Console.WriteLine(c1);
             Console.WriteLine("Execution done sucessfully....");
             
-        }
+        }*/
     }
 }

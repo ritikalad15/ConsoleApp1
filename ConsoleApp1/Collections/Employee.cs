@@ -44,22 +44,22 @@ namespace ConsoleApp1.Collections
         public int CompareTo(Employee o)
         {
            if(this.salary== o.salary)
-            {
+           {
                 return 0;
-            }
+           }
            else if (this.salary > o.salary)
-            {
+           {
                 return 1;
-            }
-            else
-            {
+           }
+           else
+           {
                 return -1;
-            }
+           }
         }
      }
-    public class Office : IEnumerable
+     public class Office : IEnumerable
 
-    {
+     {
         private  Employee[] emp;
         public Office()
         {
@@ -68,16 +68,13 @@ namespace ConsoleApp1.Collections
             emp[1] = new Employee("Ashwini",20000);
             emp[2] = new Employee("Pranit", 100000);
             emp[3] = new Employee("Arun",   200000);
-
-
-
         }
         public IEnumerator GetEnumerator()
         {
             return emp.GetEnumerator();
         }
 
-        static void Main(string[] args)
+       /* static void Main(string[] args)
         {
             Office of = new Office();
             foreach (Employee item in of )
@@ -98,13 +95,13 @@ namespace ConsoleApp1.Collections
             }
             else if (a == 1)
             {
-                Console.WriteLine("Ashwinis is high");
+                Console.WriteLine("Ashwinis salary is high");
             }
             else
             {
                 Console.WriteLine("Pranit salary is High");
             }
-        }
+        }*/
 
-    }
+     }
 }

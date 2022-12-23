@@ -58,7 +58,7 @@ namespace ConsoleApp1.Collections
             return players.GetEnumerator();
         }
 
-         static void Main(string[] args)
+        /* static void Main(string[] args)
          {
             Team team = new Team();
             foreach (Player p in team)
@@ -87,7 +87,7 @@ namespace ConsoleApp1.Collections
             {
                 Console.WriteLine("hardik & virat has same score");
             }
-         }
+         }*/
     }
 }
 
